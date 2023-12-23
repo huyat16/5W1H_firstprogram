@@ -39,7 +39,7 @@ timeout /t 2  > nul
 @echo off
 setlocal enabledelayedexpansion
 
-set "text=Bạn đã bị hack,"
+set "text=Greenhats tấn công, Greenhats tấn công"
 set "output="
 
 for /L %%x in (1, 1, 1000) do (
